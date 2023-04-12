@@ -1,6 +1,7 @@
 ---
 author: "Thao"
 title: "My first journey with hotfix of Vietnamese flag on Xtranslation chap.1"
+slug: "my-first-journey-with-hotfix-of-vietnamese-flag-on-xtranslation-chap.1"
 date: "2023-03-18"
 summary: "Hotfix contribution to Xtranslation"
 tags: [

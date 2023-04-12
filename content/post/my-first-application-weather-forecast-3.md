@@ -1,6 +1,7 @@
 ---
 author: "Thao"
 title: ":sunny:  :umbrella:  :snowflake:  :leaves: My 1st application 'Weather forecast' CHAP.3: Configuration of Swagger and Adding MIT License"
+slug: "my-1st-application-weather-forecast-chap.3-initializing-a-project"
 date: "2023-03-16"
 summary: "In the third stage, Swagger was set up for RESTful web services development, while in the fourth stage, the permissive MIT license was added to the project. The Swagger configuration included custom information about the API, such as name, version, author, and license, and the MIT license specified the conditions for use, distribution, and modification of the code without significant legal restrictions."
 tags: [

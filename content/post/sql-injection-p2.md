@@ -1,7 +1,7 @@
 ---
 author: "Thao"
 title: "My first hacking challenge: SQL Injection chap.2"
-
+slug: "my-first-hacking-challenge-sql-injection-chap.2"
 date: "2023-03-14"
 summary: "In the second task, participants will work with an input box string, while the third task focuses on URL Injection. These challenges are designed to test the knowledge and problem-solving abilities in various cybersecurity scenarios. By completing these challenges, participants can gain valuable experience and insights into how to identify and mitigate security risks in real-world situations."
 tags: [
