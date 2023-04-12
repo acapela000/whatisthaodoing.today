@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.prose {
+    max-width: inherit
+}
+
+@layer base {
+    .prose img {
+        @apply h-auto mx-auto transition-all duration-300 cursor-pointer hover:scale-110;
+    }
+}
+
+

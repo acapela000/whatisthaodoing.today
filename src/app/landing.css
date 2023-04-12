@@ -1,0 +1,106 @@
+.lp {
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+  }
+  .lp_container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lp_animation {
+    height:1em;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .lp_animation > div > div {
+    padding: 0.95rem 2rem;
+    height: 4rem;
+    margin-bottom: 3.5rem;
+    display: inline-block;
+  }
+  
+  .lp_animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .lp_first div {
+    background-color:#351939;
+  }
+  .lp_second div {
+    background-color:#654402;
+  }
+  .lp_third div {
+    background-color:#650113;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+
+
+
+.parallax, .overlay, .desc, .hero-text,
+.parallax, .overlay, .desc, .hero-text,::before,
+.parallax, .overlay, .desc, .hero-text,::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  position: relative;
+  height: 110vh;
+  width: 100%; 
+  /* h=650&w=940 */
+  background: url("https://cdn1.epicgames.com/ue/product/Screenshot/Cyperpunk-1920x1080-3d91f91b1b32cbe6b745f92ef6c582e4.png?resize=1&w=1920");
+    /* "https://opengameart.org/sites/default/files/nebulaset-but-reasonably-sized-for-a-preview.jpg"); */
+  background-size: 100%;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #fff;
+  font-family: "Times New Romance", sans-serif;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 20;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.desc {
+  background: #000;
+  padding: 100px;
+  color: #a8a8a8;
+  font-family: "serif", sans-serif;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tech a {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
