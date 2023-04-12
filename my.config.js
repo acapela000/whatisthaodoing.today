@@ -34,7 +34,7 @@ module.exports = {
     {
       name: "Personal Website",
       description: "A project to create a personal website as a porfolio. Build with Typescript, React and NestJS.",
-      thumbnail: "/porfolio/TruongTTThao.jpg",
+      thumbnail: "/porfolio/TruongTTThao.JPG",
       github: "https://github.com/acapela000/whatisthaodoing.today",
       url: "https://whatisthaodoing.today/",
     },
