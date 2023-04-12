@@ -8,12 +8,30 @@ import { ArticleMetadata } from './ArticleMetadata';
 const config: { [key: string]: any } = require('../../../my.config.js');
 
 
-export function GetArticleContent(slug: string) {
+function GetFileBySlug(slug: string) {
     const folder = config.ARTICLES_LOCATION ?? 'content/post';
-    const file = `${folder}/${slug}.md`;
+    const files = fs.readdirSync(folder);
+    const mdArticles = files.filter((file) => file.endsWith('.md'));
+
+    const article = mdArticles.map((fileName) => {
+        const raw = fs.readFileSync(`${folder}/${fileName}`, 'utf8');
+        const article = matter(raw);
+        return {
+            fileName: fileName,
+            slug: article.data.slug ?? fileName.replace(".md", ""),
+            content: article
+        };
+    })
+    .find((a) => a.slug == slug);
+
+    return article?.content;
+}
+
+export function GetArticleContent(slug: string) {
     try {
-        const rawFile = fs.readFileSync(file, 'utf8');
-        const article = matter(rawFile);
+        const article = GetFileBySlug(slug);
+        if (!article) return null;
+
         article.content = article.content.replace(/:\w+:/gi, (name: string) => emoji.getUnicode(name));
         article.data.title = article.data.title.replace(/:\w+:/gi, (name: string) => emoji.getUnicode(name));
 
@@ -34,7 +52,7 @@ export function GetArticlesMetadata(limit: number = Infinity): ArticleMetadata[]
         const title = article.data.title.replace(/:\w+:/gi, (name: string) => emoji.getUnicode(name));
 
         return {
-            slug: fileName.replace('.md', ''),
+            slug: article.data.slug ?? fileName.replace(".md", ""),
             title: title,
             date: article.data.date,
             author: article.data.author,
