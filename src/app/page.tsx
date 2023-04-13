@@ -29,7 +29,7 @@ export default function Home() {
             ]}
             cursor={true}
             repeat={Infinity}
-            style={{ fontSize: '4em', display: 'inline-block' }}
+            style={{ fontSize: '4em', display: '' }}
 
           />
         </div>
