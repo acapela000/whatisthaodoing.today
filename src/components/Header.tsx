@@ -2,6 +2,8 @@
 import { useEffect } from 'react';
 import Link from 'next/link'
 
+import { Navbar } from "flowbite-react";
+
 import { RegisterLanguages } from '@/lib/RegisterLanguages';
 import { Logo } from './Logo';
 import { Social, SiteMap } from '@/lib/ConfigType';
@@ -13,20 +15,24 @@ export function Header() {
     const appName = config.TITLE || '';
     const socialConfig: Social[] = config.SOCIALS ?? [];
     const socials = socialConfig.map((social: Social) => (
-        <li key={social.name}>
-            <a target="_blank" href={social.url} rel="noopener noreferrer" className="text-grey-darkest">
-                {social.name}
-            </a>
-        </li>
+        <Navbar.Link
+            key={social.url}
+            href={social.url}
+            active={true}
+            rel="noopener noreferrer" className="!text-white !bg-transparent">
+            {social.name}
+        </Navbar.Link>
     ));
 
     const siteMapConfig: SiteMap[] = config.SITE_MAP ?? [];
     const siteMap = siteMapConfig.map((endpoint: SiteMap) => (
-        <li key={endpoint.name} className="text-grey-darkest font-bold">
-            <Link href={endpoint.url}>
-                {endpoint.name}
-            </Link>
-        </li>
+        <Navbar.Link
+            key={endpoint.name}
+            href={endpoint.url}
+            active={true}
+            className="!text-white font-bold !bg-black">
+            {endpoint.name}
+        </Navbar.Link>
     ));
     const year = new Date().getFullYear();
 
@@ -36,16 +42,15 @@ export function Header() {
 
     return (
         <header className="text-white fixed top-0 z-10 shadow bg-black max-w-full container mx-auto p-4 items-center text-md">
-            <nav className="">
-                <ul className="ml-10 flex justify-center tracking-wide space-x-4">
-                    <li>
-                    <Logo url="/" appName={appName} />
-
-                    </li>
-                    {socials}
-                    {siteMap}
-                </ul>
-            </nav>
+            <Navbar fluid={true} rounded={true} className="!bg-black !text-white !flex !justify-center">
+                <Navbar.Brand href="/" className='mr-10'>
+                    <div dangerouslySetInnerHTML={{ __html: appName }} style={{ fontWeight: 'bold' }}></div>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse>
+                    {socials} {siteMap}
+                </Navbar.Collapse>
+            </Navbar>
         </header>
     )
 }
