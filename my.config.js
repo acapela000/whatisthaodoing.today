@@ -33,14 +33,14 @@ module.exports = {
   PROJECTS: [
     {
       name: "Porfolio Website",
-      description: "A project to create a personal website as a porfolio. Building with Typescript, React and NestJS, Tailwind CSS.",
+      description: "A project to create a personal website as a porfolio. Building with Typescript, React and NestJS, Tailwind CSS. Deploying on Vercel platform.",
       thumbnail: "/porfolio/TruongTTThao.JPG",
       github: "https://github.com/acapela000/whatisthaodoing.today",
       url: "https://whatisthaodoing.today/",
     },
     {
       name: "Weather Forecast App Frontend",
-      description: "Build the interface of application with NextJS, ReactJS in order to interact with weather forecast API",
+      description: "Build the interface of application with NextJS, ReactJS in order to interact with weather forecast API. The app is deployed on Vercel platform.",
       thumbnail: "/porfolio/wf-app-interface.png",
       github: "https://github.com/acapela000/WeatherForecastFrontend",
       url: "https://weather-forecast.whatisthaodoing.today/",
