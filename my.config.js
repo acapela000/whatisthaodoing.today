@@ -32,8 +32,8 @@ module.exports = {
 
   PROJECTS: [
     {
-      name: "Personal Website",
-      description: "A project to create a personal website as a porfolio. Build with Typescript, React and NestJS.",
+      name: "Porfolio Website",
+      description: "A project to create a personal website as a porfolio. Building with Typescript, React and NestJS, Tailwind CSS.",
       thumbnail: "/porfolio/TruongTTThao.JPG",
       github: "https://github.com/acapela000/whatisthaodoing.today",
       url: "https://whatisthaodoing.today/",
@@ -47,14 +47,14 @@ module.exports = {
     },
     {
       name: "Weather Forecast API Backend",
-      description: "Spring boot application to manage and display weatherforecast",
+      description: "Spring boot application to manage and display weatherforecast. (Note:I deployed on 'Render' with free version so after 15m of inactivity the API will be paused by the platform. Please wait a moment when you access. )",
       thumbnail: "/porfolio/backend-swagger.png",
       github: "https://github.com/acapela000/WeatherForecastAPI",
       url: "https://weather-forecast-api.whatisthaodoing.today/",
     },
     {
       name: "Chrome Extension",
-      description: "Collaborate on an open source project about dictionary translation with hotfix.",
+      description: "Collaborate on an open source project about dictionary translation with hotfix about Vietnamese flag by using Typescript.",
       thumbnail: "/porfolio/xtranslate.png",
       github: "https://github.com/ixrock/XTranslate/pull/68",
       url: "https://chrome.google.com/webstore/detail/xtranslate/gfgpkepllngchpmcippidfhmbhlljhoo/related?hl=en",
