@@ -25,12 +25,12 @@ export default function Home() {
             <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-4 my-5 ">
 
               <figure className="max-w-lg">
-                <img className="rounded-2xl h-72 w-full object-cover" src="/porfolio/bouldering.png" alt="bouldering-me" />
+                <img className="rounded-2xl h-72 w-full object-cover" src="/porfolio/bouldering.PNG" alt="bouldering-me" />
                 <figcaption className="mt-2 text-sm text-center">I go to Bouldering🧗‍♀️ couples of time per week</figcaption>
               </figure>
 
               <figure className="max-w-lg">
-                <img className="rounded-2xl  h-72 w-full object-cover" src="/porfolio/snowboarding.jpg" alt="snowboarding-me" />
+                <img className="rounded-2xl  h-72 w-full object-cover" src="/porfolio/snowboarding.JPG" alt="snowboarding-me" />
                 <figcaption className="mt-2 text-sm text-center">In Snowboarding🏂 season, I go around 2-3 times</figcaption>
               </figure>
             </div>
