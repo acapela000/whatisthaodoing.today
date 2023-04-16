@@ -8,6 +8,7 @@ export default function Home() {
           <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-7/12 px-3 lg:px-6">
             <h2 className="text-3xl font-bold mb-6">About me</h2>
             <p className="font-bold mb-2">I'm a novice in tech world &#128515;.</p>
+            <img src="/porfolio/aboutmepic.png" width="230" height="230" style={{ float: "left" }} alt="picture-about-me" />
             <p className="text-gray-500 mb-6 text-justify">
               I'm excited to be a part of the tech industry as a newbie!
               Java is my first love, and I'm thrilled by its versatility and power.
@@ -18,15 +19,25 @@ export default function Home() {
               As well as being stoked to be a part of it and can't wait to see what the future holds for me.
             </p>
             <p className="font-bold mb-2">How many languages can I speak?</p>
-            <p className="text-gray-500 mb-6">After lots of efford I have N1 JLPT, 715 TOEIC, greeting Chinese, native Vietnamese. 
-            And if you ask me how about computer languages, I can "speak" at least 3 and currently working to increase that stack🤖 </p>
+            <p className="text-gray-500 mb-6">After lots of efford I have N1 JLPT, 715 TOEIC, greeting Chinese, native Vietnamese.
+              And if you ask me how about computer languages, I can "speak" at least 3 and currently working to increase that stack🤖 </p>
             <p className="font-bold mb-2">My hobbies?</p>
-            <p className="text-gray-500 mb-6">Bouldering🧗‍♀️</p>
-            <p className="text-gray-500 mb-6">Snowboarding🏂</p>
+            <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-4 my-5 ">
+
+              <figure className="max-w-lg">
+                <img className="rounded-2xl h-72 w-full object-cover" src="/porfolio/bouldering.png" alt="bouldering-me" />
+                <figcaption className="mt-2 text-sm text-center">I go to Bouldering🧗‍♀️ couples of time per week</figcaption>
+              </figure>
+
+              <figure className="max-w-lg">
+                <img className="rounded-2xl  h-72 w-full object-cover" src="/porfolio/snowboarding.jpg" alt="snowboarding-me" />
+                <figcaption className="mt-2 text-sm text-center">In Snowboarding🏂 season, I go around 2-3 times</figcaption>
+              </figure>
+            </div>
             <p className="font-bold mb-2">How long I live in Japan?</p>
             <p className="text-gray-500 mb-6">This year will be my fifth year &#128510;</p>
             <p className="font-bold mb-2">What is my favorite food?</p>
-            <p className="text-gray-500">Anything I can eat, I love food&#128516;🍔🥘.</p>
+            <p className="text-gray-500">Anything I can eat, I love food&#128516;🍔🥘, especially ebi-sushi🍣🤤.</p>
           </div>
           <div className="grow-0 shrink-0 basis-auto w-full md:w-5/12 px-3 lg:px-6">
             <form action="mailto:mrtrados@gmail.com" method="post" >
