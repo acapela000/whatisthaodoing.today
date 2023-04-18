@@ -1,14 +1,14 @@
 ---
 author: "Thao"
-title: "My first journey with hotfix of Vietnamese flag on Xtranslation chap.1"
+title: "My first journey with hotfix of Vietnamese flag on Xtranslation CHAP.1"
 slug: "my-first-journey-with-hotfix-of-vietnamese-flag-on-xtranslation-chap.1"
-date: "2023-03-18"
-summary: "Hotfix contribution to Xtranslation"
+date: "2023-03-13"
+summary: "Collaborate on an open source project about dictionary translation with hotfix about Vietnamese flag by using Typescript."
 tags: [
     "github",
     "coding",
     "hotfix",
-    "My first journey with hotfix",
+    "My-first-journey-with-hotfix",
 ]
 toc: false
 thumbnail: "https://blog.radware.com/wp-content/uploads/2021/06/AdobeStock_164909094-scaled.jpeg"
