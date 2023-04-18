@@ -6,8 +6,8 @@ date: "2023-03-16"
 summary: "In the third stage, Swagger was set up for RESTful web services development, while in the fourth stage, the permissive MIT license was added to the project. The Swagger configuration included custom information about the API, such as name, version, author, and license, and the MIT license specified the conditions for use, distribution, and modification of the code without significant legal restrictions."
 tags: [
     "projects",
-    "weather forecast",
-    "My first APP",
+    "weather-forecast",
+    "My-first-APP",
     "backend",
 ]
 toc: true

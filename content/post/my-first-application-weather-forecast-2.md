@@ -2,12 +2,12 @@
 author: "Thao"
 title: ":sunny:  :umbrella:  :snowflake:  :leaves: My 1st application 'Weather forecast' CHAP.2: Installing dependencies and Adding basic model, controller, repository"
 slug: "my-1st-application-weather-forecast-chap.2-installing-dependencies-and-adding-basic-model-controller-repository"
-date: "2023-03-14"
+date: "2023-03-15"
 summary: "To develop the weather forecast application's backend, dependencies were installed, including essential libraries and frameworks. The fundamental components, such as the WeatherForecast model, controller, and database repository, were then created, with a MemoryDatabase used for optimal performance. The backend was efficiently configured and operational."
 tags: [
     "projects",
-    "weather forecast",
-    "My first APP",
+    "weather-forecast",
+    "My-first-APP",
     "backend",
 ]
 toc: true

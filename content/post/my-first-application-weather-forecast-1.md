@@ -1,13 +1,13 @@
 ---
 author: "Thao"
 title: ":sunny:  :umbrella:  :snowflake:  :leaves: My 1st application 'Weather forecast' CHAP.1: Initializing a project"
-date: "2023-03-12"
+date: "2023-03-14"
 slug: "my-1st-application-weather-forecast-chap.1-initializing-a-project"
 summary: "The creation process of this weather forecast application began with initializing a project. This involved creating a Spring Boot application that provided a robust framework for developing a RESTful API. After setting up the project, the next step was to check the status of the API, which confirmed that the application was operational and ready for use. This meticulous and systematic approach to development ensured that the application was functional and responsive, allowing users to obtain up-to-date and accurate weather information at any given time."
 tags: [
     "projects",
-    "weather forecast",
-    "My first APP",
+    "weather-forecast",
+    "My-first-APP",
     "backend",
 ]
 toc: true
