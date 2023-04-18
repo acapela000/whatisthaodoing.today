@@ -26,6 +26,7 @@ export function Article(props: any) {
                         {date} 　・　{result.text}
                     </div>
                 </header>
+                <img src={article.data.thumbnail} className='h-0 w-0' />
                 <article className="prose text-justify text-base">
                     {
                         article.data.toc && (
