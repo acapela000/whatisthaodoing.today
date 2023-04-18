@@ -5,8 +5,8 @@ date: "2023-03-12"
 summary: "Beginning with numerous questions about the benefits of utilizing Spring Boot, I embarked on a journey to further comprehend the extensive and multifaceted capabilities of this versatile framework."
 tags: [
     "projects",
-    "weather forecast",
-    "My first APP",
+    "weather-forecast",
+    "My-first-APP",
 ]
 toc: true
 thumbnail: "https://www.mattianatali.it/static/f92c9ba1862b3cdd99d4928d52992aa2/3e393/intellij-spring-boot.jpg"
