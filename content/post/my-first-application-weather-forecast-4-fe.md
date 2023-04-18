@@ -19,7 +19,7 @@ While the first three chapters focused on backend development, this fourth chapt
 
 ## 4.Front-end development
 
-Once I had the backend code in place, I created the user interface for my web app. This involves designing the layout and visual elements for my app, I'm using `TypeScript` to code fore frontend and render HTML as well as using `Tailwind` for CSS part. Besides that, I also use a frontend framework like NextJS to simplify the process.
+Once I had the backend code in place, I created the user interface for my web app. This involves designing the layout and visual elements for my app, I'm using React on top of `TypeScript` to for frontend to render HTML as well as using `Tailwind` for CSS part. Besides that, I also use a frontend framework like NextJS to simplify the process.
 
 ### Get current location
 
