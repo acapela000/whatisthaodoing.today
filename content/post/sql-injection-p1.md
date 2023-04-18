@@ -1,13 +1,13 @@
 ---
 author: "Thao"
-title: "My first hacking challenge: SQL Injection chap.1"
+title: "My first hacking challenge CHAP.1: SQL Injection - Input box non-string"
 slug: "my-first-hacking-challenge-sql-injection-chap.1"
 date: "2023-03-13"
 summary: "For first-time hackers, TryHackMe's SQL Injection challenge can be both exciting and intimidating. Participants are tested on their ability to identify and exploit SQL vulnerabilities in the first task, while learning about common attack methods and preventative measures. Successfully completing the challenge builds confidence and prepares participants for future cybersecurity challenges. It's a valuable learning experience for anyone interested in cybersecurity."
 tags: [
     "sql",
     "hacking",
-    "My first hacking challenge",
+    "My-first-hacking-challenge",
 ]
 toc: false
 thumbnail: "https://www.thesslstore.com/blog/wp-content/uploads/2020/04/sql-injection-attack.jpg"
