@@ -18,7 +18,10 @@ export const generateMetadata = async ({ params }: any): Promise<Metadata> => {
     if (!article) return { title: "Post not found!" };
 
     const articleMetadata: ArticleMetadata = article.data as ArticleMetadata;
-    return { title: articleMetadata.title }
+    return {
+        title: articleMetadata.title, 
+        openGraph: {images: articleMetadata.thumbnail ?? "" }
+    }
 }
 
 export default function ArticlePage(props: any) {
