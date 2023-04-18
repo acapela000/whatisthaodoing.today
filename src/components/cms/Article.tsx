@@ -1,12 +1,11 @@
 import { notFound } from 'next/navigation';
-
 import { format } from 'date-fns'
 import Markdown from 'markdown-to-jsx';
 import Toc from "react-toc";
-
+import { Tags } from './Tags';
 import { GetArticleContent } from './FetchData';
 import { CodeBlock } from './CodeBlock';
-
+import { readingTime } from 'reading-time-estimator';
 
 export function Article(props: any) {
     const { slug } = props;
@@ -15,7 +14,7 @@ export function Article(props: any) {
     if (!article) return notFound();
 
     const date = format(new Date(article.data.date), 'dd LLL yyyy');
-
+    const result = readingTime(article.content)
     return (
         <>
             <article className="container mx-auto px-4">
@@ -23,8 +22,8 @@ export function Article(props: any) {
                     <h1 className={`text-3xl text-center`}>
                         {article.data.title}
                     </h1>
-                    <div className="container font-display text-grey-darkest mx-auto px-4 text-xs mt-14 mb-12 tracking-wide text-center">
-                        {date}
+                    <div className="container font-display text-grey-darkest mx-auto px-4 text-xs mt-14 mb-5 tracking-wide text-center">
+                        {date} 　・　{result.text}
                     </div>
                 </header>
                 <article className="prose text-justify text-base">
@@ -49,6 +48,9 @@ export function Article(props: any) {
                         {article.content}
                     </Markdown>
                 </article>
+                <div className="container font-display text-grey-darkest mx-auto px-4 text-xs mt-4 mb-12 tracking-wide text-center">
+                    <Tags tags={article.data.tags} />
+                </div>
             </article>
         </>
     );
