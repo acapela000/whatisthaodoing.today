@@ -20,7 +20,8 @@ export const generateMetadata = async ({ params }: any): Promise<Metadata> => {
     const articleMetadata: ArticleMetadata = article.data as ArticleMetadata;
     return {
         title: articleMetadata.title, 
-        openGraph: {images: articleMetadata.thumbnail ?? "" }
+        openGraph: {images: articleMetadata.thumbnail ?? "" },
+        twitter: {images: [articleMetadata.thumbnail ?? ""] }
     }
 }
 
