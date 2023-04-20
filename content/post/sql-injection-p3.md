@@ -2,8 +2,8 @@
 author: "Thao"
 title: "My first hacking challenge CHAP.3: SQL Injection - POST Injection "
 
-date: "2023-03-15"
-summary: "In the second task, participants will work with an input box string, while the third task focuses on URL Injection. These challenges are designed to test our knowledge and problem-solving abilities in various cybersecurity scenarios. By completing these challenges, participants can gain valuable experience and insights into how to identify and mitigate security risks in real-world situations."
+date: "2023-03-24"
+summary: "POST Injection"
 tags: [
     "sql",
     "hacking",
@@ -11,7 +11,7 @@ tags: [
 ]
 toc: false
 draft: true
-thumbnail: "https://www.thesslstore.com/blog/wp-content/uploads/2022/05/xml-injection-attack-feature.jpg"
+thumbnail: "https://brightsec.com/wp-content/uploads/elementor/thumbs/image_13-pktx6jgimwsiva0x6ilsesl4obl7e2qbi52gyoay2o.png"
 ---
 
 Welcome back to my post with the third chap about SQL Injection challenge on tryhackme.
