@@ -9,7 +9,7 @@ tags: [
     "My-first-APP",
 ]
 toc: true
-thumbnail: "https://www.mattianatali.it/static/f92c9ba1862b3cdd99d4928d52992aa2/3e393/intellij-spring-boot.jpg"
+thumbnail: "https://dz2cdn1.dzone.com/storage/article-thumb/18116-thumb.jpg"
 ---
 
 

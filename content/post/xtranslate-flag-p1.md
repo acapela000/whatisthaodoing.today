@@ -11,7 +11,7 @@ tags: [
     "My-first-journey-with-hotfix",
 ]
 toc: false
-thumbnail: "https://blog.radware.com/wp-content/uploads/2021/06/AdobeStock_164909094-scaled.jpeg"
+thumbnail: "https://media.istockphoto.com/id/1364367007/photo/neon-translation-icon-with-message-technology-and-people-icons.jpg?b=1&s=170667a&w=0&k=20&c=POiR7jCwBjszP_x-bMxzCOmPL4sGGGTtJ6x8eSsYyhE="
 ---
 
 ## How - When I found the hotfix
