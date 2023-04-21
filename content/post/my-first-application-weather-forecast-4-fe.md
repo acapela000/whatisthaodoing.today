@@ -12,7 +12,7 @@ tags: [
 ]
 toc: true
 draft: false
-thumbnail: "/wf-app/wf-app-phone-layout.png"
+thumbnail: "/wf-app/wf-thumbnail-c4.png"
 ---
 
 While the first three chapters focused on backend development, this fourth chapter will shift gears to delve into the world of frontend development about how I attempted to get current location and to convert country code to country name.

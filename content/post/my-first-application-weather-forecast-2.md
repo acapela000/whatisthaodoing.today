@@ -11,7 +11,7 @@ tags: [
     "backend",
 ]
 toc: true
-thumbnail: "https://cdn.dribbble.com/users/1503026/screenshots/15321987/weather_app_neumorphism_4x.png"
+thumbnail: "https://media.istockphoto.com/id/1169990398/vector/glowing-neon-thunderstorm-with-rain-weather-icon-storm-and-rain-symbols-with-lightning-in.jpg?s=170667a&w=0&k=20&c=h2ve-LYpaw34MyDH6UVyxk3wTcQeB9EGr444eQ4pAvo="
 ---
 
 If you haven't read it yet, in the [previous chapter](https://whatisthaodoing.today/post/my-1st-application-weather-forecast-chap.1-initializing-a-project/), I shared my inspiration for developing a weather forecasting web app and the cutting-edge tools I used to build it. Now, in chapter 2, I will talk about the technical aspects of backend development. Specifically, I will share my experience installing dependencies and adding a basic model, controller, and repository to lay the foundation for the app's functionality. So let's dive into the details of how I brought my vision to life.

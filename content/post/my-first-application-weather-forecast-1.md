@@ -11,7 +11,7 @@ tags: [
     "backend",
 ]
 toc: true
-thumbnail: "https://cdn.dribbble.com/users/2438406/screenshots/9064361/weatherapp_dribbble_darkmode_v2_2x_4x.png"
+thumbnail: "https://media.istockphoto.com/id/1168055583/vector/glowing-neon-snow-with-rain-weather-icon-snowflake-and-rain-drop-symbols-with-cloud-in-neon.jpg?s=612x612&w=0&k=20&c=cJyjoYKqH03AwydjA9oqjmR24clpyNhxhixiQZFDuSQ="
 ---
 
 ## 1. Introduction
