@@ -10,7 +10,7 @@ tags: [
     "My-first-hacking-challenge",
 ]
 toc: false
-thumbnail: "https://geekflare.com/wp-content/uploads/2020/02/Code-injection-e1580817731194.jpg"
+thumbnail: "https://wallpaperbat.com/img/549319-javascript-nodejs-tips.jpg"
 ---
 
 Welcome back to this post as I continue my exploration of the SQL Injection challenge on TryHackMe. In this second chapter, I will delve deeper into the technical aspects of the challenge and explore the intricacies of input box strings. With this challenge, I may be able to refine my skills in identifying and exploiting SQL vulnerabilities, and gain a better understanding of how hackers can use SQL Injection attacks to compromise systems. This chapter promises to be an exciting and informative continuation of my exploration of the world of cybersecurity challenges.

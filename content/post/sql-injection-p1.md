@@ -10,7 +10,7 @@ tags: [
     "My-first-hacking-challenge",
 ]
 toc: false
-thumbnail: "https://www.thesslstore.com/blog/wp-content/uploads/2020/04/sql-injection-attack.jpg"
+thumbnail: "https://e0.pxfuel.com/wallpapers/122/80/desktop-wallpaper-sql-mysql.jpg"
 ---
 
 I have always been intrigued by the field of cybersecurity, and recently a friend recommended tryhackme.com to me. Eager to explore the world of hacking, I decided to take on my first challenge involving SQL Injection.
