@@ -8,7 +8,7 @@ export default function Home() {
           <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-7/12 px-3 lg:px-6">
             <h2 className="text-3xl font-bold mb-6">About me</h2>
             <p className="font-bold mb-2">I'm a novice in tech world &#128515;.</p>
-            <img src="/porfolio/aboutmepic.png" width="230" height="230" style={{ float: "left" }} alt="picture-about-me" />
+            <img src="/porfolio/Subject.png" width="230" height="230" style={{ float: "left" }} alt="picture-about-me" />
             <p className="text-gray-500 mb-6 text-justify">
               I'm excited to be a part of the tech industry as a newbie!
               Java is my first love, and I'm thrilled by its versatility and power.
