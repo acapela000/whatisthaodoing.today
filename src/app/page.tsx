@@ -9,19 +9,19 @@ export default function Home() {
     <>
       {/* parallax */}
       <div className='shadow-inner flex items-center justify-center w-full h-screen bg-cover bg-center bg-fixed'
-        style={{ backgroundImage: "url('https://i.gifer.com/4NB4.gif')" }}>
+        style={{ backgroundImage: "url('https://cdn.dribbble.com/users/370759/screenshots/1796042/untitled-1.gif')" }}>
         {/* 'https://i.makeagif.com/media/5-16-2018/WIKVPz.gif' */}
-        {/* GOOD 'https://cdn.dribbble.com/users/370759/screenshots/1796042/untitled-1.gif' */}
+        {/* GOOD 'https://i.gifer.com/4NB4.gif' */}
         {/* 'https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif' */}
 
         <div className=' text-white font-bold'>
           <TypeAnimation
             sequence={[
-              "Hi 👋 I'm Thao",
+              "Hi 🖖🏻 Welcome to my page 🚀",
               1000,
-              "Hi 👋 I'm Fullstack Developer",
+              "I'm Thao 😎",
               1000,
-              "Hi 👋 I'm Fresher Engineer",
+              "I'm Junior Frontend Developer 🎃",
               1000,
               () => {
                 console.log('Sequence completed');
