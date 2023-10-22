@@ -32,8 +32,15 @@ module.exports = {
 
   PROJECTS: [
     {
+      name: "Green Space App",
+      description: "At NASA Space Apps Challenge 2023, I selected <a class='underline' href='https://www.spaceappschallenge.org/2023/challenges/whats-up-with-this-water/'>What's up with this water</a> and create an web app to detect the nearest place has water, to evaluate the quality of water etc. Building with Javascript, React and NextJS, Tailwind CSS.",
+      thumbnail: "/porfolio/GreenSpaceAppsAva.PNG",
+      github: "https://github.com/GreenSpaceNASA/frontend",
+      url: "I'm currently working on deployment",
+    },
+    {
       name: "Porfolio Website",
-      description: "A project to create a personal website as a porfolio. Building with Typescript, React and NestJS, Tailwind CSS. Deploying on Vercel platform.",
+      description: "A project to create a personal website as a porfolio. Building with Typescript, React and NextJS, Tailwind CSS. Deploying on Vercel platform.",
       thumbnail: "/porfolio/TruongTTThao.JPG",
       github: "https://github.com/acapela000/whatisthaodoing.today",
       url: "https://whatisthaodoing.today/",
