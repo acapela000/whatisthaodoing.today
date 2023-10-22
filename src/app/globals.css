@@ -22,4 +22,6 @@ body {
     }
 }
 
-
+.project-description a {
+    @apply hover:text-blue-500;
+}
