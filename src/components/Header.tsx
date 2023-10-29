@@ -1,9 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Link from 'next/link'
-
 import { Navbar } from "flowbite-react";
-
 import { RegisterLanguages } from '@/lib/RegisterLanguages';
 import { Logo } from './Logo';
 import { Social, SiteMap } from '@/lib/ConfigType';
@@ -19,7 +17,7 @@ export function Header() {
             key={social.url}
             href={social.url}
             active={true}
-            rel="noopener noreferrer" className="!text-white !bg-transparent">
+            rel="noopener noreferrer" className="!text-black !bg-transparent">
             {social.name}
         </Navbar.Link>
     ));
@@ -30,7 +28,7 @@ export function Header() {
             key={endpoint.name}
             href={endpoint.url}
             active={true}
-            className="!text-white font-bold !bg-black">
+            className="!text-black font-bold !bg-white">
             {endpoint.name}
         </Navbar.Link>
     ));
@@ -41,8 +39,8 @@ export function Header() {
     }, []);
 
     return (
-        <header className="text-white fixed top-0 z-10 shadow bg-black max-w-full container mx-auto p-4 items-center text-md">
-            <Navbar fluid={true} rounded={true} className="!bg-black !text-white !flex !justify-center">
+        <header className="text-black fixed top-0 z-10 shadow bg-white max-w-full container mx-auto p-4 items-center text-md">
+            <Navbar fluid={true} rounded={true} className="!bg-white !text-black !flex !justify-center">
                 <Navbar.Brand href="/" className='mr-10'>
                     <div dangerouslySetInnerHTML={{ __html: appName }} style={{ fontWeight: 'bold' }}></div>
                 </Navbar.Brand>
