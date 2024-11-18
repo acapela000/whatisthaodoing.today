@@ -10,11 +10,17 @@ tags: [
     "backend",
 ]
 toc: true
-draft: true
+draft: false
 thumbnail: "https://cdn.dribbble.com/userupload/3907586/file/original-491db6fd55ae4d0c0b7a3d25392ba223.png?compress=1&resize=2048x1536&vertical=center"
 ---
 
+https://nextjs.org/docs
+
 ## 3.Backend development
+
+### Stage 5: Creating method `getListOfWF` at `MemoryDatabase` in `repository`
+
+### Stage 6: Adding `responseMsg` to `model`
 
 ### Stage 7: Installing `Docker`
 
@@ -369,31 +375,7 @@ I also tested the screen for the phone in order to make `grid` better between de
 
 <img src="/wf-app/phone-screen-test.jpg" width="80%"/>
 
-**Deploy to vercel after adding current location**
 
-I meet the `403 error` when I checked the deployment. The information of `current location` is not displayed.
-
-<img src="/wf-app/vercel-current-location.png" width="100%"/>
-
-I searched for `403 error` and check the `ip` status in local host. Everything is OK. So why? what is happening here?
-
-<img src="/wf-app/what-is-403.png" width="100%"/>
-
-So the `ipinfo` works well, in local host the current location is displayed as well. That means I miss something between the `server` and the `app`. Then I remember that I created an `env` before but I forgot to create an `enviroment variables` in vercel platform :D. Then instantly I went to the page to make it.
-
-<img src="/wf-app/vercel-env.png" width="100%"/>
-
-Then waitingggggg for deployment again.
-
-<img src="/wf-app/vercel-current-location-building.png" width="100%"/>
-
-Then finally, the deployment is successful.
-
-<img src="/wf-app/vercel-current-location-ok.png" width="100%"/>
-
-[Check the app here](https://weather-forecast.whatisthaodoing.today/)
-
-<img src="/wf-app/vercel-current-location-layout.png" width="100%"/>
 
 **More content is uploading...**
 
@@ -401,66 +383,6 @@ Then finally, the deployment is successful.
 ### Deploying frontend
 
 ### Deploying backend
-
-After finishing my web app, it's important to test it thoroughly to ensure it works as intended. This includes functional testing, integration testing, and performance testing. Once I almost have my backend code on place, I deploy my web app to a production environment.
-
-As first, I attempted to deploy my application on `Heroku`. 
-
-<img src="/wf-app/heroku-register.png" width="100%"/>
-
-But I got a little bit stuck when I tried on installing it by using `choco` with `cmd` `choco install heroku`. 
-
-<img src="/wf-app/choco-heroku-failed.png" width="100%"/>
-
-Then I regconized that the cmd is not right. I read the docs again and try `choco install heroku-cli` and I made it. Successfully intalled `Heroku`.
-
-[Install Heroku Docs](https://devcenter.heroku.com/articles/heroku-cli)
-
-<img src="/wf-app/choco-heroku-done-4over5.png" width="100%"/>
-
-Then when I tried to build `Docker Images` with `heroku.yml`, I met some bugs and got stuck again.
-
-[Building Docker Images with heroku.yml](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml)
-
-<img src="/wf-app/heroku-build-docker-img-err.png" width="100%"/>
-
-<img src="/wf-app/heroku-build-docker-img-bug.png" width="100%"/>
-
-Unbfornately, later than that, Heroku is officially not free anymore from the begining of April so I changed to use `Netlify`.
-
-<img src="/wf-app/netlify-deploy.png" width="100%"/>
-
-After registered and upload the repository from `github`, I was waiting for my first time deploying backend code.
-
-<img src="/wf-app/netlify-dp-waiting-1.png" width="100%"/>
-
-Finally, the deployment process is done and seem like the page is live. I was very excited at this time, can't wait to access into my onw site.
-
-<img src="/wf-app/netlify-dp-waiting-2.png" width="100%"/>
-
-However, when I clicked on the deployed `url`, it turned to `Page not found`
-
-<img src="/wf-app/netlify-dp-pagenotfound.png" width="100%"/>
-
-I tried to follow the instruction from "pagenotfound" "support guide" but it still didn't work. Then I searched on google and found out the truth is:
-
-[Netlify's answer](https://answers.netlify.com/t/how-to-deploy-springboot-app-in-netlify/18252)
-
-<img src="/wf-app/netlify-not-java.png" width="100%"/>
-
-After Heroku, Netlify, I searched for new source as Cloud Foundary. But it seems like complex to deploy then I tried to search for more free platform to deploy `Spring Boot`:
-
-<img src="/wf-app/free-platform-deploy.png" width="100%"/>
-
-and I found one. I felt very happy and excited when I found `render` platform. It has lots of functions and easy to use.
-
-[More about Render](https://render.com/)
-
-<img src="/wf-app/render-deploy.png" width="100%"/>
-
-Oh, but stop for a minute... the journey of deployment is officially start from now.
-
-### deploy with render
 
 **More content is uploading...**
 

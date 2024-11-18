@@ -10,8 +10,8 @@ tags: [
     "My-first-hacking-challenge",
 ]
 toc: false
-draft: true
-thumbnail: "https://brightsec.com/wp-content/uploads/elementor/thumbs/image_13-pktx6jgimwsiva0x6ilsesl4obl7e2qbi52gyoay2o.png"
+draft: false
+thumbnail: "https://wallpaperaccess.com/full/417651.jpg"
 ---
 
 Welcome back to my post with the third chap about SQL Injection challenge on tryhackme.
@@ -21,13 +21,19 @@ Welcome back to my post with the third chap about SQL Injection challenge on try
 
 [Check at chap 1](https://whatisthaodoing.today/post/my-first-hacking-challenge-sql-injection-chap.1/)
 
+I went to room 4
+
+<img src="/sql-injection-img/p2/Challenge-room-all-task-4.png" width="100%"/>
+
+As in the previous chapter, I tested by input `profileID` with `admin` and `password` with `123` and as the same result as previous time, it rejected.
+
 ```sql
 SELECT uid, name, profileID, salary, passportNr, email, nickName, password FROM usertable WHERE profileID='1' or '1'='1'-- -' AND password='a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'
 ```
 
-<img src="/sql-injection-img/p2/Challenge-room-all-task-4.png" width="100%"/>
+And because this challenge is `POST` so I can't see any thing from the `url` 
 
-task 4
+
 
 ```html
 <form action="/sesqli4/login" onsubmit="return validateform()" name="inputForm" method="POST">
