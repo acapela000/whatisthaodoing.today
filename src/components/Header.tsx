@@ -17,7 +17,7 @@ export function Header() {
       href={social.url}
       active={true}
       rel="noopener noreferrer"
-      className="!text-[#5F6F52] !bg-[#B99470]"
+      className="!text-black !bg-white"
     >
       {social.name}
     </Navbar.Link>
@@ -29,7 +29,7 @@ export function Header() {
       key={endpoint.name}
       href={endpoint.url}
       active={true}
-      className="!text-[#5F6F52] font-bold !bg-[#B99470]"
+      className="!text-black font-bold !bg-white"
     >
       {endpoint.name}
     </Navbar.Link>
@@ -41,11 +41,11 @@ export function Header() {
   }, []);
 
   return (
-    <header className="text-black fixed top-0 z-10 shadow bg-[#B99470] max-w-full container mx-auto p-4 items-center text-md">
+    <header className="text-black fixed top-0 z-10 shadow bg-white max-w-full container mx-auto p-4 items-center text-md">
       <Navbar
         fluid={true}
         rounded={true}
-        className="!bg-[#B99470] !text-[#5F6F52] !flex !justify-center text-lg"
+        className="!bg-white !text-black !flex !justify-center text-lg"
       >
         <Navbar.Brand href="/" className="mr-10">
           <div

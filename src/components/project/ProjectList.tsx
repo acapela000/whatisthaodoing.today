@@ -64,7 +64,7 @@ export function ProjectList() {
 
   return (
     <div className="mt-auto">
-      <h1 className="text-4xl mb-6 text-center text-[#B99470]">MY PROJECTS</h1>
+      <h1 className="text-4xl mb-6 text-center text-black">MY PROJECTS</h1>
       {projectStart}, {projectEnd}
       <div className="grid grid-cols-3 gap-1 justify-items-center my-5">
         {projectList.slice(projectStart, projectEnd).map((el) => {

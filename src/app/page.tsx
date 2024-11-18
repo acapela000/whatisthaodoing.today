@@ -10,7 +10,7 @@ export default function Home() {
     <>
       {/* parallax */}
       <div
-        className="bg-[#5F6F52] shadow-inner flex w-full h-screen bg-cover bg-center bg-fixed z-0"
+        className="bg-white shadow-inner flex w-full h-screen bg-cover bg-center bg-fixed z-0"
         style={{
           backgroundImage:
             "url('https://i.makeagif.com/media/5-16-2018/WIKVPz.gif')",
@@ -22,7 +22,7 @@ export default function Home() {
         {/* GOOD 'https://i.gifer.com/4NB4.gif' */}
         {/* 'https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif' */}
         <div
-          className="flex top-50 left-0 w-full h-full text-[#B99470] font-bold z-10 items-center justify-center mt-10"
+          className="flex top-50 left-0 w-full h-full text-[#DEAC80] font-bold z-10 items-center justify-center mt-10"
           style={{ zIndex: 10 }}
         >
           {/* Type Animation is a library that allows us to create animations of text */}
@@ -75,7 +75,7 @@ export default function Home() {
         </div> */}
 
       {/* intro */}
-      <div className="w-2xl mx-auto text-center bg-[#5F6F52]" id="about">
+      <div className="w-2xl mx-auto text-center bg-white" id="about">
         <div className="">
           <ProjectList />
           <Icon />
