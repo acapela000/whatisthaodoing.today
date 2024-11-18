@@ -1,24 +1,25 @@
-'use client';
-import './globals.css';
-import 'highlight.js/styles/github.css';
+"use client";
+import "./globals.css";
+import "highlight.js/styles/github.css";
 
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className="antialiased font-body leading-7 text-body">
+      <body className="antialiased font-body leading-7 text-body bg-[#B99470]">
         <Header />
-        <main id="content">
-          {children}
-        </main>
+        <main id="content">{children}</main>
         <Footer />
         <Analytics />
       </body>
     </html>
-  )
+  );
 }
